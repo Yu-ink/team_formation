@@ -22,6 +22,11 @@ https://teamformation-snqsmxudaj2ubyjawarth4.streamlit.app
 | AI 대기 중 화면 | 어려운 해결(몇 차 모델의 응답을 몇 초째 기다리는지 보여 줌) |
 | DB 일시정지 막기 | 어려운 해결(GitHub Actions가 매일 두 번 DB에 질의, `.github/workflows/keepalive.yml`) |
 
+배포 앱에서 부록 3(어려움)으로 확인한 화면:
+- 8단계 승인 직전 재검사: 학생2·학생8·학생5가 모두 찬성했지만 "거절: …(승인 직전 검사: 같은 주 역할의 팀원이 있음)" ([`img/step8-recheck.png`](img/step8-recheck.png)). 처음 시험에서는 학생5가 거부를 눌러 재검사 장면이 나오지 않았으므로([`img/step8-reject.png`](img/step8-reject.png)), 명단을 다시 올려 4~8단계를 다시 해서 확인함
+- 11단계 필수 포함 역할 자리: "막힘: 필수 포함 역할을 맡을 학생의 자리가 모자람(들어간 뒤 남는 자리 1개, 채울 역할 2개: 기획자, 웹 프로그래머)" ([`img/step11-blocked.png`](img/step11-blocked.png))
+- 14단계 마감: 대기 지원 1건 거절, 1명뿐인 팀의 학생10이 빠짐 ([`img/step14-close.png`](img/step14-close.png), [`img/step14-unassigned.png`](img/step14-unassigned.png))
+
 ## 4. 쓴 모델 3개
 - 1차 `google/gemma-4-31b-it:free`
 - 2차 `nvidia/nemotron-3-ultra-550b-a55b:free`
