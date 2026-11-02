@@ -26,9 +26,9 @@
 
 ## 4. 쓴 모델 3개
 ✍️ Secrets의 `OPENROUTER_MODELS`에 실제로 넣은 이름으로 고친다.
-- 1차 `nvidia/nemotron-3-super-120b-a12b:free`
-- 2차 `openai/gpt-oss-120b:free`
-- 3차 `meta-llama/llama-3.3-70b-instruct:free`
+- 1차 `google/gemma-4-31b-it:free`
+- 2차 `nvidia/nemotron-3-ultra-550b-a55b:free`
+- 3차 `thinkingmachines/inkling:free`
 
 ## 5. 오픈라우터 AI 모델 호출 실패 사례
 ✍️ 관리자 화면의 'AI 호출 기록' 표(또는 Supabase `tf_ai_logs` 표)를 캡처해 `img/`에 넣고 적는다.

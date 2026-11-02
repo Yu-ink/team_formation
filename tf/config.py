@@ -15,9 +15,9 @@ except Exception:  # pragma: no cover
 
 DEFAULT_MODELS = [
     # 1차, 2차, 3차. OPENROUTER_MODELS(쉼표 구분)로 바꿀 수 있음. 모두 무료(:free) 모델.
-    "nvidia/nemotron-3-super-120b-a12b:free",
-    "openai/gpt-oss-120b:free",
-    "meta-llama/llama-3.3-70b-instruct:free",
+    "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "thinkingmachines/inkling:free",
 ]
 
 
