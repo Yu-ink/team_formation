@@ -5,7 +5,7 @@
 > ✍️ 표시가 있는 칸은 배포하고 직접 시험해 본 뒤 **본인이 겪은 내용으로** 채운다(꾸며 내면 시나리오 밖 점수 0점).
 
 ## 1. 배포 주소
-✍️ `https://__________.streamlit.app`
+https://teamformation-snqsmxudaj2ubyjawarth4.streamlit.app
 
 ## 2. PRD와 구현 계획의 위치
 - PRD: [`docs/PRD.md`](docs/PRD.md)
